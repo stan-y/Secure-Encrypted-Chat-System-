@@ -73,3 +73,8 @@ python server.py
 
 # Run clients (in separate terminals)
 python client.py
+```
+
+## Test Credentials
+- Usernames : [ bobb , alice ]
+- Password : 123
