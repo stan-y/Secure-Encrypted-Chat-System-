@@ -14,7 +14,7 @@ To build a **secure, multi-client chat application** that:
 
 ---
 
-## Tools & Technologies Used  
+## 🛠️  Tools & Technologies Used  
 
 | Category          | Technologies |  
 |-------------------|--------------|  
@@ -25,26 +25,26 @@ To build a **secure, multi-client chat application** that:
 
 ---
 
-## Skills Demonstrated  
+## 🎯 Skills Demonstrated  
 
-### Core Cybersecurity  
+### 🔐 Core Cybersecurity  
 - Implemented **Diffie-Hellman key exchange** to prevent MITM attacks  
 - Designed **AES-GCM encryption** for message confidentiality & integrity  
 - Secured authentication with **encrypted credential transmission**  
 
-### Software Engineering  
+### 💻 Software Engineering  
 - Built a **multi-threaded TCP server** handling concurrent clients  
 - Engineered **protocol framing** (length-prefixed messages)  
 - Structured code for **modularity** and **maintainability**  
 
-### Debugging & Validation  
+### 🐛 Debugging & Validation  
 - Verified encryption with **Wireshark packet analysis**  
 - Implemented **debug logs** for key derivation and message flow  
 - Stress-tested with **multiple concurrent clients**  
 
 ---
 
-## Key Features  
+## 🌟 Key Features  
 | Feature | Implementation | Security Benefit |  
 |---------|---------------|------------------|  
 | **Session-Based Keys** | New DH exchange per connection | Perfect forward secrecy |  
@@ -54,7 +54,7 @@ To build a **secure, multi-client chat application** that:
 
 ---
 
-## Setup & Usage  
+## ⚙️ Setup & Usage  
 
 ### Prerequisites  
 - Python 3.9+  
@@ -75,6 +75,11 @@ python server.py
 python client.py
 ```
 
-## Test Credentials
+### Test Credentials
 - Usernames : [ bobb , alice ]
 - Password : 123
+  
+## 📈 Future Improvements
+
+- Add TLS certificate verification
+- Implement key rotation for long sessions
