@@ -10,7 +10,6 @@ To build a **secure, multi-client chat application** that:
 - Implements **end-to-end encryption** using industry-standard protocols  
 - Demonstrates **secure authentication** without plaintext credential exposure  
 - Provides **perfect forward secrecy** through session-based key generation  
-- Serves as a **portfolio piece** showcasing cybersecurity and networking skills  
 
 ---
 
@@ -50,7 +49,7 @@ To build a **secure, multi-client chat application** that:
 | **Session-Based Keys** | New DH exchange per connection | Perfect forward secrecy |  
 | **Encrypted Auth** | Username/password via AES-GCM | Prevents credential sniffing |  
 | **Message Integrity** | AES-GCM authentication tags | Detects tampering |  
-| **Threaded Server** | Handles 50+ concurrent clients | Scalable architecture |  
+| **Threaded Server** | Handles multiple concurrent clients | Scalable architecture |  
 
 ---
 
@@ -62,7 +61,7 @@ To build a **secure, multi-client chat application** that:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/secure-chat.git
+git clone https://github.com/stan-y/Secure-Encrypted-Chat-System-.git
 cd secure-chat
 
 # Install dependencies
