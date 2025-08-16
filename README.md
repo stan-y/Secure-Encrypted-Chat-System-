@@ -1,7 +1,7 @@
 # Secure Encrypted Chat System  
 *A Python-based secure communication platform demonstrating real-world cryptography implementation*  
 
-[![Watch the Demo_Video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
+[![Watch the Demo_Video](https://img.youtube.com/vi/your_video_id/0.jpg)](.assets/Demo_Video.mp4)
 
 ---
 
