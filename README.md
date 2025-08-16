@@ -62,7 +62,13 @@ To build a **secure, multi-client chat application** that:
 ```bash
 # Clone repository
 git clone https://github.com/stan-y/Secure-Encrypted-Chat-System-.git
-cd secure-chat
+cd Secure-Encrypted-Chat-System
+
+# create virtual enviroment
+python -m venv myenv
+
+# Activate the virtual environment
+source myenv/bin/activate
 
 # Install dependencies
 pip install cryptography
