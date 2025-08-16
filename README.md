@@ -74,10 +74,10 @@ source myenv/bin/activate
 pip install cryptography
 
 # Start server (in one terminal)
-python server.py
+python encypted_server.py
 
 # Run clients (in separate terminals)
-python client.py
+python encrypted_client.py
 ```
 
 ### Test Credentials
